@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../../assets/css/styles';
-import tailwind from 'twrnc';
 
 import { Picker } from '@react-native-picker/picker';
 import { View, Text, FlatList, Modal, TextInput, TouchableOpacity, Alert } from 'react-native';

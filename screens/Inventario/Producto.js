@@ -4,7 +4,7 @@ import Toast from 'react-native-toast-message';
 
 import { Picker } from '@react-native-picker/picker';
 import { View, Text, FlatList, Modal, TextInput, TouchableOpacity } from 'react-native';
-import { fetchProducto, agregarNuevoProducto, fetchCategorias } from '../../assets/js/Inventario/Producto.js';
+import { fetchProducto, agregarNuevoProducto, fetchCategorias } from '../../assets/js/Inventario/Producto';
 import { FontAwesome } from "@expo/vector-icons";
 
 

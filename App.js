@@ -9,6 +9,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import User from "./assets/user.jpg";
 import inventarioHome from './screens/inventarioHome';
+import parametrizacionHome from './screens/parametrizacionHome';
 
 const Drawer = createDrawerNavigator();
 const stack = createStackNavigator();
@@ -44,11 +45,11 @@ export default function App() {
                     }}
                 />
                 <stack.Screen
-                    name="Sistema"
-                    component={inventarioHome}
+                    name="Parametrización"
+                    component={parametrizacionHome}
                     options={{
-                        drawerLabel: "Sistema",
-                        title: "Sistema",
+                        drawerLabel: "Parametrización",
+                        title: "Parametrización",
                         drawerIcon: ({ color, size }) => (
                             <MaterialIcons name="category" size={size} color={color} />
                         )
